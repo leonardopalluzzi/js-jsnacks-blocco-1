@@ -4,6 +4,7 @@ se è dispari inseriscilo nell’array.*/
 
 const oddNumbers = [];
 let flag = true;
+let j = 0;
 
 for (let i = 0; i < 6; i++){
     let userNumber = Number(prompt(`inserire il ${i + 1} numero`));
@@ -12,7 +13,8 @@ for (let i = 0; i < 6; i++){
         flag = false;
         break;
     } else if (userNumber % 2 != 0){
-        oddNumbers[i] = userNumber;
+        oddNumbers[j] = userNumber;
+        j++;
     }
 }
 
