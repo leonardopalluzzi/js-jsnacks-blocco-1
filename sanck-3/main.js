@@ -7,7 +7,7 @@ let somma = 0;
 for (let i = 0; i < 10; i++) {
     let userNumber = Number(prompt(`inserisci il ${i + 1} numero`));
     if (isNaN(userNumber)) {
-        alert('inserire solo valori numerici')
+        alert('inserire solo valori numerici');
         break;
     } else {
         numbers[i] = userNumber
