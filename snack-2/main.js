@@ -15,4 +15,3 @@ if(firstWord.length > secondWord.length){
 }
 
 location.reload();
-
